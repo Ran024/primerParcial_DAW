@@ -4,6 +4,9 @@
         <meta charset="UTF-8" />
         <!--Titulo de la pagina-->
         <title>Mi primera pagina web</title>
+
+        <link re1="preload" href="css/normalize.css" as="style">
+        <link re1="stylesheet" href="CSS/normalize.css">
         
         <!--Font desde google font-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,44 +27,56 @@
             </h1>
         </header>
 
-        <nav>
+        <div class="nav-bg">
+        <nav class="navegacion-principal contenedor" >
             <a href="index.html">Inicio</a>
             <a href="unidades.html">Unidad</a>
             <a href="calificaciones.html">Calificaciones</a>
         </nav>
+        </div>
 
-        <img src="Imagenes/DAwfo.png">
+        <section class="hero">
+            <div class="contenido-hero">
 
-        <section>
             <p>Rania Ostaiza M.</p>
             <img src="iconos/contactar.svg"> 
             
             <p>Guayaquil, Ecuador</p>
-            <a href="#">Contactar</a>
+            <a  class="boton" href="#">Contactar</a>
+            </div>
         </section>
         
-    <main>
-        <h2>Tecnologías</h2>
+        <!--<img src="Imagenes/DAwfo.png"> -->
+
         <section>
+            
+        </section>
+        
+    <main class="sombra">
+        <h2>Tecnologías</h2>
+        <div class="lenguajes">
+            <section>
             <h3>HTML</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            <p>Lorem ipsum dolor sit amet, consectetur. 
             Morbi tellus lectus, tincidunt eu aliquam in.</p>
         </section>
         <section>
             <h3>CSS</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            <p>Lorem ipsum dolor sit amet, consectetur. 
             Morbi tellus lectus, tincidunt eu aliquam in.</p>
         </section>
         <section>
             <h3>JavascriptT</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            <p>Lorem ipsum dolor sit amet, consectetur. 
             Morbi tellus lectus, tincidunt eu aliquam in.</p>
         </section>
         <section>
             <h3>PHP</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            <p>Lorem ipsum dolor sit amet, consectetur. 
             Morbi tellus lectus, tincidunt eu aliquam in.</p>
         </section>
+        </div>
+        
     </main>
 
         <section>
